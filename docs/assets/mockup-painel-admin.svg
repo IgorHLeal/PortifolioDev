@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mockup do painel administrativo do Portfolio.Dev</title>
+  <desc id="desc">Dashboard com menu lateral, indicadores, projetos recentes e mensagens.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#020617" flood-opacity="0.3"/></filter>
+  </defs>
+  <rect width="1440" height="900" fill="#0F172A"/>
+  <rect x="0" y="0" width="265" height="900" fill="#0B1120"/>
+  <circle cx="42" cy="42" r="18" fill="#2563EB"/>
+  <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Arial" font-size="22" font-weight="700">Portfolio.Dev</text>
+  <text x="28" y="102" fill="#64748B" font-family="Inter, Arial" font-size="12" font-weight="700">ADMINISTRAÇÃO</text>
+  <rect x="18" y="122" width="229" height="48" rx="10" fill="#172554"/>
+  <text x="58" y="152" fill="#93C5FD" font-family="Inter, Arial" font-size="15" font-weight="650">Visão geral</text>
+  <g fill="#CBD5E1" font-family="Inter, Arial" font-size="15">
+    <text x="58" y="210">Projetos</text><text x="58" y="262">Tecnologias</text><text x="58" y="314">Experiências</text>
+    <text x="58" y="366">Certificados</text><text x="58" y="418">Mensagens</text><text x="58" y="470">Perfil</text>
+  </g>
+  <line x1="24" y1="820" x2="240" y2="820" stroke="#1E293B"/>
+  <text x="58" y="860" fill="#FCA5A5" font-family="Inter, Arial" font-size="15">Sair</text>
+
+  <text x="310" y="62" fill="#F8FAFC" font-family="Inter, Arial" font-size="30" font-weight="750">Visão geral</text>
+  <text x="310" y="90" fill="#94A3B8" font-family="Inter, Arial" font-size="14">Gerencie o conteúdo público do seu portfólio.</text>
+  <rect x="1194" y="35" width="196" height="46" rx="10" fill="#2563EB"/>
+  <text x="1227" y="64" fill="#FFFFFF" font-family="Inter, Arial" font-size="14" font-weight="650">+ Novo projeto</text>
+
+  <g filter="url(#shadow)">
+    <rect x="310" y="128" width="250" height="130" rx="16" fill="#111827" stroke="#263449"/>
+    <rect x="580" y="128" width="250" height="130" rx="16" fill="#111827" stroke="#263449"/>
+    <rect x="850" y="128" width="250" height="130" rx="16" fill="#111827" stroke="#263449"/>
+    <rect x="1120" y="128" width="270" height="130" rx="16" fill="#111827" stroke="#263449"/>
+  </g>
+  <g font-family="Inter, Arial">
+    <text x="336" y="168" fill="#94A3B8" font-size="14">Projetos</text><text x="336" y="220" fill="#60A5FA" font-size="38" font-weight="750">5</text>
+    <text x="606" y="168" fill="#94A3B8" font-size="14">Tecnologias</text><text x="606" y="220" fill="#4ADE80" font-size="38" font-weight="750">12</text>
+    <text x="876" y="168" fill="#94A3B8" font-size="14">Certificados</text><text x="876" y="220" fill="#FBBF24" font-size="38" font-weight="750">8</text>
+    <text x="1146" y="168" fill="#94A3B8" font-size="14">Mensagens não lidas</text><text x="1146" y="220" fill="#F87171" font-size="38" font-weight="750">4</text>
+  </g>
+
+  <rect x="310" y="292" width="700" height="530" rx="18" fill="#111827" stroke="#263449" filter="url(#shadow)"/>
+  <text x="340" y="340" fill="#F8FAFC" font-family="Inter, Arial" font-size="20" font-weight="700">Projetos recentes</text>
+  <rect x="805" y="316" width="170" height="38" rx="9" fill="#0F172A" stroke="#334155"/>
+  <text x="826" y="341" fill="#94A3B8" font-family="Inter, Arial" font-size="13">Pesquisar projetos</text>
+  <line x1="340" y1="379" x2="980" y2="379" stroke="#263449"/>
+  <g fill="#64748B" font-family="Inter, Arial" font-size="12" font-weight="650"><text x="340" y="405">PROJETO</text><text x="682" y="405">STATUS</text><text x="818" y="405">ATUALIZADO</text><text x="940" y="405">AÇÕES</text></g>
+  <g font-family="Inter, Arial">
+    <text x="340" y="456" fill="#E2E8F0" font-size="15">Portfolio.Dev</text><rect x="675" y="436" width="82" height="26" rx="13" fill="#052E16"/><text x="692" y="454" fill="#86EFAC" font-size="12">Publicado</text><text x="818" y="454" fill="#94A3B8" font-size="13">Hoje</text><text x="943" y="454" fill="#60A5FA" font-size="13">Editar</text>
+    <line x1="340" y1="480" x2="980" y2="480" stroke="#1E293B"/>
+    <text x="340" y="532" fill="#E2E8F0" font-size="15">OneNote Knowledge Hub</text><rect x="675" y="512" width="82" height="26" rx="13" fill="#052E16"/><text x="692" y="530" fill="#86EFAC" font-size="12">Publicado</text><text x="818" y="530" fill="#94A3B8" font-size="13">Ontem</text><text x="943" y="530" fill="#60A5FA" font-size="13">Editar</text>
+    <line x1="340" y1="556" x2="980" y2="556" stroke="#1E293B"/>
+    <text x="340" y="608" fill="#E2E8F0" font-size="15">Diagnóstico de Rede</text><rect x="675" y="588" width="75" height="26" rx="13" fill="#422006"/><text x="692" y="606" fill="#FDE68A" font-size="12">Rascunho</text><text x="818" y="606" fill="#94A3B8" font-size="13">2 dias</text><text x="943" y="606" fill="#60A5FA" font-size="13">Editar</text>
+  </g>
+
+  <rect x="1035" y="292" width="355" height="530" rx="18" fill="#111827" stroke="#263449" filter="url(#shadow)"/>
+  <text x="1064" y="340" fill="#F8FAFC" font-family="Inter, Arial" font-size="20" font-weight="700">Mensagens recentes</text>
+  <circle cx="1075" cy="397" r="7" fill="#2563EB"/><text x="1094" y="392" fill="#E2E8F0" font-family="Inter, Arial" font-size="14" font-weight="650">Empresa Exemplo</text><text x="1094" y="414" fill="#94A3B8" font-family="Inter, Arial" font-size="12">Contato sobre oportunidade .NET</text>
+  <line x1="1064" y1="443" x2="1360" y2="443" stroke="#1E293B"/>
+  <circle cx="1075" cy="482" r="7" fill="#2563EB"/><text x="1094" y="477" fill="#E2E8F0" font-family="Inter, Arial" font-size="14" font-weight="650">Recrutamento Tech</text><text x="1094" y="499" fill="#94A3B8" font-family="Inter, Arial" font-size="12">Gostaria de conversar sobre seu perfil</text>
+  <line x1="1064" y1="528" x2="1360" y2="528" stroke="#1E293B"/>
+  <text x="1064" y="580" fill="#60A5FA" font-family="Inter, Arial" font-size="14" font-weight="650">Ver todas as mensagens  →</text>
+  <text x="852" y="870" text-anchor="middle" fill="#64748B" font-family="Inter, Arial" font-size="13">Wireframe conceitual do painel administrativo</text>
+</svg>

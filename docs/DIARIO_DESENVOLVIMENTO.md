@@ -42,7 +42,7 @@ Nunca registrar neste arquivo senhas, tokens, chaves, strings de conexão reais 
 
 ### Objetivo
 
-Criar um portfólio profissional full stack que, além de apresentar a minha trajetória, comprove na prática conhecimentos de C#, ASP.NET Core, APIs REST, SQL Server, React, autenticação, testes, Docker, Azure e CI/CD.
+Criar um portfólio profissional full stack que, além de apresentar a trajetória de Igor Leal, comprove na prática conhecimentos de C#, ASP.NET Core, APIs REST, SQL Server, React, autenticação, testes, Docker, Azure e CI/CD.
 
 ### Público-alvo
 
@@ -170,7 +170,12 @@ Especificação inicial criada no arquivo `docs/PROTOTIPO_VISUAL.md` e aguardand
 
 ```text
 docs/PROTOTIPO_VISUAL.md
+docs/REFERENCIAS_VISUAIS.md
+docs/assets/mockup-site-publico.svg
+docs/assets/mockup-painel-admin.svg
 ```
+
+O documento de referências visuais reúne os mockups da página pública e do painel, além dos fluxos de arquitetura, autenticação, cadastro de projeto, contato, banco preliminar, CI/CD e Azure.
 
 ### Validação pendente
 
