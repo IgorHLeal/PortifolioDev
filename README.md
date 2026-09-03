@@ -174,6 +174,7 @@ PortfolioDev/
 ├── frontend/
 ├── docs/
 │   ├── assets/
+│   ├── CRONOGRAMA_ETAPAS.md
 │   ├── DIARIO_DESENVOLVIMENTO.md
 │   ├── GUIA_INSTALACAO_AMBIENTE.md
 │   ├── PROTOTIPO_VISUAL.md
@@ -239,6 +240,7 @@ No desenvolvimento local, a aplicação e o SQL Server estarão no mesmo computa
 
 | Documento | Conteúdo |
 |---|---|
+| [`CRONOGRAMA_ETAPAS.md`](docs/CRONOGRAMA_ETAPAS.md) | Cronograma, status e verificação objetiva das etapas |
 | [`GUIA_INSTALACAO_AMBIENTE.md`](docs/GUIA_INSTALACAO_AMBIENTE.md) | Instalação e validação das ferramentas |
 | [`DIARIO_DESENVOLVIMENTO.md`](docs/DIARIO_DESENVOLVIMENTO.md) | Histórico de etapas, comandos, decisões e erros |
 | [`PROTOTIPO_VISUAL.md`](docs/PROTOTIPO_VISUAL.md) | Especificação das telas e componentes |

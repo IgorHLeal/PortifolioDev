@@ -447,3 +447,38 @@ docs/DIARIO_DESENVOLVIMENTO.md
 ```text
 fix: corrige renderização dos diagramas Mermaid
 ```
+
+---
+
+## Documentação geral — Cronograma com verificações
+
+### Objetivo
+
+Converter o cronograma anexado em uma tabela Markdown versionável e acrescentar uma verificação objetiva para cada etapa.
+
+### Arquivo criado
+
+```text
+docs/CRONOGRAMA_ETAPAS.md
+```
+
+### Conteúdo registrado
+
+- 39 etapas presentes no PDF original;
+- fases, atividades, tecnologias, resultados e prazos;
+- status atual por etapa;
+- evidência necessária para conclusão;
+- resumo das etapas concluídas, pendentes e não iniciadas;
+- regra para atualização futura do cronograma.
+
+### Ajustes de consistência
+
+- o nome previsto `portfolio-dotnet` foi atualizado para o nome definitivo `PortfolioDev`;
+- React e Vite foram mantidos como decisão oficial do front-end;
+- o resultado e o prazo da Etapa 39 foram completados para manter o padrão da tabela.
+
+### Commit recomendado
+
+```text
+docs: adiciona cronograma com verificações
+```
