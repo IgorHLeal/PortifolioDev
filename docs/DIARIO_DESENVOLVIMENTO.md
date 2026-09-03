@@ -383,3 +383,45 @@ Copie esta estrutura ao iniciar uma nova etapa:
 
 ### Resultado e próximo passo
 ```
+
+---
+
+## Documentação geral — README principal
+
+### Objetivo
+
+Criar a página inicial do repositório para apresentar o propósito, a arquitetura, as tecnologias, o estado atual, as instruções de execução e o roadmap do Portfolio.Dev.
+
+### Arquivo criado
+
+```text
+README.md
+```
+
+### Conteúdo registrado
+
+- apresentação e objetivos;
+- mockups da página pública e do painel;
+- arquitetura geral e dependências do back-end;
+- tecnologias utilizadas e planejadas;
+- funcionalidades separadas por área;
+- estrutura do repositório;
+- execução do estado atual;
+- índice dos documentos;
+- status e roadmap;
+- padrão de commits;
+- cuidados com segredos;
+- identificação do autor.
+
+### Validação prevista
+
+- conferir a renderização dos SVGs e diagramas Mermaid no GitHub;
+- validar todos os links relativos da documentação;
+- executar `dotnet restore`, `dotnet build` e `dotnet test` a partir das instruções;
+- substituir o placeholder do LinkedIn antes da publicação final.
+
+### Commit recomendado
+
+```text
+docs: cria readme principal do projeto
+```
