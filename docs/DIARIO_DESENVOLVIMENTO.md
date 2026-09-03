@@ -29,7 +29,7 @@ Nunca registrar neste arquivo senhas, tokens, chaves, strings de conexão reais 
 | 2 | Definir conteúdo do site | Concluída inicialmente |
 | 3 | Definir estrutura das páginas | Concluída |
 | 4 | Definir arquitetura da aplicação | Concluída |
-| 5 | Criar protótipo visual simples | Pendente |
+| 5 | Criar protótipo visual simples | Em validação |
 | 6 | Instalar e configurar ferramentas | Concluída |
 | 7 | Criar repositório no GitHub | Concluída |
 | 8 | Criar solução .NET | Concluída |
@@ -154,11 +154,34 @@ Arquitetura inicial definida. Detalhes poderão ser refinados durante a implemen
 
 ### Situação
 
-Pendente. A preparação técnica foi adiantada antes da criação do protótipo.
+Especificação inicial criada no arquivo `docs/PROTOTIPO_VISUAL.md` e aguardando validação antes de ser considerada concluída.
+
+### Decisões registradas
+
+- tema escuro com azul como cor de destaque;
+- página pública organizada em Navbar, Hero, Sobre, Tecnologias, Experiência, Projetos, Certificados, Contato e Footer;
+- página própria para detalhes de cada projeto;
+- painel administrativo separado da navegação pública;
+- componentes responsivos para celular, tablet e desktop;
+- estados de carregamento, vazio, erro e sucesso previstos;
+- acessibilidade e redução de movimento consideradas desde o protótipo.
+
+### Arquivo criado
+
+```text
+docs/PROTOTIPO_VISUAL.md
+```
+
+### Validação pendente
+
+- confirmar título profissional;
+- aprovar paleta e organização das seções;
+- definir uso de fotografia ou avatar;
+- confirmar projetos e estrutura do painel.
 
 ### Próximo trabalho
 
-Definir o protótipo da página pública e do painel administrativo antes da modelagem definitiva do banco.
+Validar o protótipo. Após a aprovação, marcar a Etapa 5 como concluída e iniciar a Etapa 10 — modelagem do banco de dados.
 
 ---
 
@@ -355,4 +378,3 @@ Copie esta estrutura ao iniciar uma nova etapa:
 
 ### Resultado e próximo passo
 ```
-
