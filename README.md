@@ -61,25 +61,25 @@ O projeto também funciona como uma trilha prática de estudos. Cada etapa, deci
 ## Arquitetura
 
 ```mermaid
-flowchart LR
-    U[Usuário] --> W[React]
-    W --> A[API ASP.NET Core]
-    A --> D[(SQL Server)]
-    A --> S[Armazenamento de arquivos]
-    A --> G[GitHub API]
+graph LR
+    user["Usuário"] --> web["React"]
+    web --> api["API ASP.NET Core"]
+    api --> database["SQL Server"]
+    api --> storage["Armazenamento de arquivos"]
+    api --> github["GitHub API"]
 ```
 
 ### Organização do back-end
 
 ```mermaid
-flowchart TD
-    API[PortfolioDev.Api] --> APP[PortfolioDev.Application]
-    API --> INFRA[PortfolioDev.Infrastructure]
-    INFRA --> APP
-    INFRA --> DOMAIN[PortfolioDev.Domain]
-    APP --> DOMAIN
-    TESTS[PortfolioDev.Tests] --> APP
-    TESTS --> DOMAIN
+graph TD
+    api["PortfolioDev.Api"] --> application["PortfolioDev.Application"]
+    api --> infrastructure["PortfolioDev.Infrastructure"]
+    infrastructure --> application
+    infrastructure --> domain["PortfolioDev.Domain"]
+    application --> domain
+    tests["PortfolioDev.Tests"] --> application
+    tests --> domain
 ```
 
 | Projeto | Responsabilidade |
@@ -324,4 +324,3 @@ Os segredos serão tratados posteriormente com variáveis de ambiente, User Secr
 ## Licença
 
 A licença do projeto será definida antes da primeira versão pública de produção.
-

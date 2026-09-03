@@ -32,25 +32,25 @@ Este documento reúne os exemplos visuais inicialmente propostos para o Portfoli
 ## 3. Arquitetura geral
 
 ```mermaid
-flowchart LR
-    U[Usuário] --> R[React]
-    R --> A[API ASP.NET Core]
-    A --> D[(SQL Server)]
-    A --> B[Blob Storage]
-    A --> G[GitHub API]
+graph LR
+    user["Usuário"] --> react["React"]
+    react --> api["API ASP.NET Core"]
+    api --> database["SQL Server"]
+    api --> storage["Blob Storage"]
+    api --> github["GitHub API"]
 ```
 
 ## 4. Organização do back-end
 
 ```mermaid
-flowchart TD
-    API[PortfolioDev.Api] --> APP[PortfolioDev.Application]
-    API --> INFRA[PortfolioDev.Infrastructure]
-    INFRA --> APP
-    INFRA --> DOMAIN[PortfolioDev.Domain]
-    APP --> DOMAIN
-    TESTS[PortfolioDev.Tests] --> APP
-    TESTS --> DOMAIN
+graph TD
+    api["PortfolioDev.Api"] --> application["PortfolioDev.Application"]
+    api --> infrastructure["PortfolioDev.Infrastructure"]
+    infrastructure --> application
+    infrastructure --> domain["PortfolioDev.Domain"]
+    application --> domain
+    tests["PortfolioDev.Tests"] --> application
+    tests --> domain
 ```
 
 ### Regra de dependência
@@ -60,23 +60,23 @@ O domínio fica no centro e não depende das outras camadas. A infraestrutura im
 ## 5. Fluxo público de navegação
 
 ```mermaid
-flowchart TD
-    H[Home] --> S[Sobre mim]
-    S --> T[Tecnologias]
-    T --> E[Experiência]
-    E --> P[Projetos]
-    P --> C[Certificados]
-    C --> F[Contato]
+graph TD
+    home["Home"] --> about["Sobre mim"]
+    about --> technologies["Tecnologias"]
+    technologies --> experience["Experiência"]
+    experience --> projects["Projetos"]
+    projects --> certificates["Certificados"]
+    certificates --> contact["Contato"]
 ```
 
 Ao selecionar um projeto:
 
 ```mermaid
-flowchart LR
-    C[Card do projeto] --> D[Detalhes]
-    D --> A[Arquitetura]
-    D --> R[Repositório]
-    D --> M[Demonstração]
+graph LR
+    card["Card do projeto"] --> details["Detalhes"]
+    details --> architecture["Arquitetura"]
+    details --> repository["Repositório"]
+    details --> demo["Demonstração"]
 ```
 
 ## 6. Fluxo de autenticação JWT
@@ -133,22 +133,22 @@ erDiagram
 ## 9. Fluxo de contato
 
 ```mermaid
-flowchart TD
-    V[Visitante preenche formulário] --> X{Dados válidos?}
-    X -- Não --> E[Exibir validações]
-    X -- Sim --> A[Enviar para API]
-    A --> D[(Salvar no SQL Server)]
-    D --> S[Exibir confirmação]
+graph TD
+    visitor["Visitante preenche formulário"] --> valid{"Dados válidos?"}
+    valid -- "Não" --> errors["Exibir validações"]
+    valid -- "Sim" --> api["Enviar para API"]
+    api --> database["Salvar no SQL Server"]
+    database --> success["Exibir confirmação"]
 ```
 
 ## 10. Pipeline de CI/CD
 
 ```mermaid
-flowchart LR
-    P[Push] --> B[Build]
-    B --> T[Testes]
-    T --> I[Imagem Docker]
-    I --> D[Deploy Azure]
+graph LR
+    push["Push"] --> build["Build"]
+    build --> tests["Testes"]
+    tests --> image["Imagem Docker"]
+    image --> deploy["Deploy Azure"]
 ```
 
 Em caso de falha no build ou nos testes, a publicação será interrompida.
@@ -156,12 +156,12 @@ Em caso de falha no build ou nos testes, a publicação será interrompida.
 ## 11. Arquitetura de produção no Azure
 
 ```mermaid
-flowchart TD
-    U[Usuário] --> W[Front-end]
-    W --> A[Azure App Service]
-    A --> S[(Azure SQL)]
-    A --> B[Azure Blob Storage]
-    A --> O[Application Insights]
+graph TD
+    user["Usuário"] --> frontend["Front-end"]
+    frontend --> app["Azure App Service"]
+    app --> sql["Azure SQL"]
+    app --> blob["Azure Blob Storage"]
+    app --> insights["Application Insights"]
 ```
 
 Os serviços definitivos e seus planos serão escolhidos durante a fase de cloud para evitar custos desnecessários.
@@ -190,4 +190,3 @@ docs/
 ```
 
 Ao abrir `REFERENCIAS_VISUAIS.md` no GitHub, os SVGs e os diagramas Mermaid serão renderizados automaticamente.
-

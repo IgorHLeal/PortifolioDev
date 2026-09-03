@@ -425,3 +425,25 @@ README.md
 ```text
 docs: cria readme principal do projeto
 ```
+
+### Problema de renderização do Mermaid
+
+**Problema:** o GitHub exibiu `Unable to render rich display` no fluxograma de arquitetura.
+
+**Causa provável:** incompatibilidade do renderizador com a combinação de identificadores, rótulos sem aspas e formas especiais utilizada na primeira versão.
+
+**Correção:** os fluxogramas foram convertidos para a sintaxe mais conservadora `graph`, receberam identificadores descritivos e passaram a utilizar rótulos entre aspas. As formas especiais de banco foram substituídas por caixas simples para aumentar a compatibilidade.
+
+**Arquivos alterados:**
+
+```text
+README.md
+docs/REFERENCIAS_VISUAIS.md
+docs/DIARIO_DESENVOLVIMENTO.md
+```
+
+**Commit recomendado:**
+
+```text
+fix: corrige renderização dos diagramas Mermaid
+```
