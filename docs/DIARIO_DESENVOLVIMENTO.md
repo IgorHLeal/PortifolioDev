@@ -42,7 +42,7 @@ Nunca registrar neste arquivo senhas, tokens, chaves, strings de conexão reais 
 
 ### Objetivo
 
-Criar um portfólio profissional full stack que, além de apresentar a trajetória de Igor Leal, comprove na prática conhecimentos de C#, ASP.NET Core, APIs REST, SQL Server, React, autenticação, testes, Docker, Azure e CI/CD.
+Criar um portfólio profissional full stack que, além de apresentar a minha trajetória, comprove na prática conhecimentos de C#, ASP.NET Core, APIs REST, SQL Server, React, autenticação, testes, Docker, Azure e CI/CD.
 
 ### Público-alvo
 
